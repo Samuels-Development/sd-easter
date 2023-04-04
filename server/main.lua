@@ -54,7 +54,6 @@ AddEventHandler("eggs:server:buyBox", function(item)
         local items = Player.Functions.GetItemsByName(reward.item)
         for _, invItem in ipairs(items) do
             if invItem ~= nil and invItem.amount >= reward.amount then
-                print("Player has "..invItem.amount.." "..invItem.name.."s.")
                 totalItems = totalItems + invItem.amount
             end
         end
