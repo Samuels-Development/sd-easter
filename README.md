@@ -23,7 +23,7 @@ If you encounter any issues/bugs etc. you'd like adressed, make sure to join my 
 
 # Installation
 
-Step 1: Add easter into your resources folder (and ensure it if needed in your server.cfg)
+Step 1: Add sd-easter into your resources folder (and ensure it if needed in your server.cfg)
 
 Step 2: Add the following items into your qb-core/shared/items.lua:
 
@@ -44,7 +44,7 @@ Step 2: Add the following items into your qb-core/shared/items.lua:
     ["mm"] 				 			 = {["name"] = "mm",  		     				["label"] = "M&Ms",	 					["weight"] = 200, 		["type"] = "item", 		["image"] = "mm.png", 					["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "M&Ms" },
     ['easterbasket'] 		           = {['name'] = 'easterbasket', 			  	  	['label'] = 'Easter basket', 			    ['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'easterbasket.png', 			    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
 
-	
+3. Add the food items; chocolatebunny, jellybeans & mm to your qb-consumables.
 
 Now you're done and ready to start collecting!
 
