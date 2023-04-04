@@ -1,5 +1,9 @@
-# easter
 
+![EasterEgg](https://user-images.githubusercontent.com/99494967/229825960-0e314f8b-aae6-429c-8750-b7a231e5b176.jpg)
+
+This is a slight re-write of sd-christmas with new props etc. to suit the easter theme.
+
+TL;DR, Collect Eggs and exchange them for Small, Medium and Large Baskets with randomized Loot in them!
 
 # Common Issue
 - Restarting the resource while in-game will break the prop spawns!
@@ -38,6 +42,7 @@ Now you're done and ready to start collecting!
 
 # Credits
 
+Kaylaa#6145 - For initially rewriting sd-christmas.
 BzZz 🐝#9999 -  https://bzzz.tebex.io/ (For the Easter props!)
 
 # Previous Credits
