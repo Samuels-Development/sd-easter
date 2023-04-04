@@ -42,7 +42,7 @@ Step 2: Add the following items into your qb-core/shared/items.lua:
     ['bunny'] 		               = {['name'] = 'bunny', 			  	  	['label'] = 'Stuffed Bunny', 			    ['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'bunny.png', 			    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
     ['jellybeans'] 		           = {['name'] = 'jellybeans', 			  	  	['label'] = 'Jelly Beans', 			    ['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'jellybeans.png', 			    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
     ["mm"] 				 			 = {["name"] = "mm",  		     				["label"] = "M&Ms",	 					["weight"] = 200, 		["type"] = "item", 		["image"] = "mm.png", 					["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "M&Ms" },
-  ```['easterbasket'] 		           = {['name'] = 'easterbasket', 			  	  	['label'] = 'Easter basket', 			    ['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'easterbasket.png', 			    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},```
+    ['easterbasket'] 		           = {['name'] = 'easterbasket', 			  	  	['label'] = 'Easter basket', 			    ['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'easterbasket.png', 			    ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = ''},
 
 	
 
