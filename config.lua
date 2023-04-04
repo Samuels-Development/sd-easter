@@ -4,8 +4,8 @@ Config = {} --Ignore.
 
 Config.traderNPCS = {
     [1] = {
-        location = vector3(237.71, -870.55, 29.29),
-        heading = 347.2, 
+        location = vector3(257.69, -1069.63, 29.3),
+        heading = 356.32, 
         model = "Roger"
     }
 }
