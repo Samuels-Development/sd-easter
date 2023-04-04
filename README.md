@@ -5,6 +5,9 @@ This is a slight re-write of sd-christmas with new props etc. to suit the easter
 
 TL;DR, Collect Eggs and exchange them for Small, Medium and Large Baskets with randomized Loot in them!
 
+Preview of sd-christmas (as stated above, it's pretty much the same but with easter-related things) @
+https://www.youtube.com/watch?v=9AASphfXmXk
+
 # Common Issue
 - Restarting the resource while in-game will break the prop spawns!
 
