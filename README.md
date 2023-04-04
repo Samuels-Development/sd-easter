@@ -5,7 +5,7 @@ This is a slight re-write of sd-christmas with new props etc. to suit the easter
 
 TL;DR, Collect Eggs and exchange them for Small, Medium and Large Baskets with randomized Loot in them!
 
-Preview of sd-christmas (as stated above, it's pretty much the same but with easter-related things) @
+Preview of sd-christmas (as mentioned above, it's pretty much the same as this but christmas themed) @
 https://www.youtube.com/watch?v=9AASphfXmXk
 
 Please Consider checking out my other work here on GitHub or on my Store & Discord @ https://samuels-development.tebex.io & https://discord.gg/samueldev
