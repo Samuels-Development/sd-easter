@@ -51,6 +51,9 @@ Now you're done and ready to start collecting!
 
 # Credits
 
+qwadebot#0001 - For Creating the Scoreboard UI
+![GH0OLfI](https://user-images.githubusercontent.com/99494967/230175863-f39c718a-c562-43a2-a327-06d6c6af47be.jpg)
+
 Kaylaa#6145 - For initially rewriting sd-christmas.
 BzZz 🐝#9999 -  https://bzzz.tebex.io/ (For the Easter props!)
 
