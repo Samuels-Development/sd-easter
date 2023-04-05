@@ -168,9 +168,7 @@ RegisterNetEvent("eggs:init", function()
                             local basketHash = GetHashKey('bzzz_event_easter_basket_b')
                             local boneIndex = GetPedBoneIndex(playerPed, PropBone)
 
-                            if not BasketInHand then
-                                QBCore.Functions.Notify("You don't have a basket in your hand..", "error")
-                            else
+                            if not Config.CheckBasketInHand or BasketInHand then
                                 if IsPedInAnyVehicle(PlayerPedId()) then
                                     QBCore.Functions.Notify("You can't reach the easter egg..", "error")
                                 else
@@ -184,6 +182,8 @@ RegisterNetEvent("eggs:init", function()
                                             ClearPedTasks(playerPed)
                                         end)
                                 end
+                            else
+                                QBCore.Functions.Notify("You don't have a basket in your hand..", "error")
                             end
                         end
                     }
@@ -193,6 +193,7 @@ RegisterNetEvent("eggs:init", function()
         end
     end
 end)
+
 
 RegisterNetEvent("eggs:client:buyBox")
 AddEventHandler("eggs:client:buyBox", function(item)
