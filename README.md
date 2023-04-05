@@ -46,6 +46,8 @@ Step 2: Add the following items into your qb-core/shared/items.lua:
 
 3. Add the food items; chocolatebunny, jellybeans & mm to your qb-consumables.
 
+4. Add a way for players to get a 'easterbasket'
+
 Now you're done and ready to start collecting!
 
 
