@@ -69,6 +69,16 @@ Citizen.CreateThread(function()
                     action = function()
                         exports['qb-menu']:openMenu(shopData)
                     end
+                },
+                {
+                    icon = "fab fa-leanpub",
+                    label = Config.text.leaderboard,
+                    canInteract = function()
+                        return true
+                    end,
+                    action = function()
+                        ToggleEasterNUI()
+                    end
                 }
             },
             distance = 3.0

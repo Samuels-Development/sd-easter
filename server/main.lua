@@ -1,6 +1,8 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 GlobalState.EasterEggs = Config.easterEggs
 
+local EasterEggsLeaderboard = {}
+
 Citizen.CreateThread(function()
     for _, v in pairs(Config.easterEggs) do
         v.taken = false
@@ -35,12 +37,32 @@ AddEventHandler("eggs:pickupEgg", function(loc)
         TriggerClientEvent("eggs:removeEgg", -1, loc)
         EggCooldown(loc)
         local Player = QBCore.Functions.GetPlayer(source)
+        local CID = Player.PlayerData.citizenid
+        local playerName = Player.PlayerData.charinfo.firstname .. " " .. Player.PlayerData.charinfo.lastname
         local item = math.random(1, #Config.CuReward)
         local amount = math.random(Config.CuReward[item]["amount"], Config.CuReward[item]["amount"])
         if Player.Functions.AddItem(Config.CuReward[item]["item"], amount) then
             TriggerClientEvent('inventory:client:ItemBox', source,  QBCore.Shared.Items[Config.CuReward[item]["item"]], 'add')
-    end
+        end
+
+        if EasterEggsLeaderboard[CID] == nil then
+            EasterEggsLeaderboard[CID] = {
+                name = playerName,
+                amount = 1
+            }
+        else
+            EasterEggsLeaderboard[CID] = {
+                name = playerName,
+                amount = EasterEggsLeaderboard[CID].amount + 1
+            }
+        end
+
+        TriggerClientEvent("eggs:client:updateLeaderboard", -1)
   end
+end)
+
+QBCore.Functions.CreateCallback('sd-easter:getCurrentLeaderboard', function(source, cb)
+    cb(EasterEggsLeaderboard)
 end)
 
 RegisterNetEvent("eggs:server:buyBox")

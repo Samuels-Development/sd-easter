@@ -4,7 +4,7 @@ Config = {} --Ignore.
 
 Config.traderNPCS = {
     [1] = {
-        location = vector3(257.69, -1069.63, 29.3),
+        location = vector3(257.69, -1069.63, 29.3 - 1),
         heading = 356.32, 
         model = "Roger"
     }
@@ -109,6 +109,8 @@ Config.text = {
     shopTitle = " 🐰 Easter 🐰",
     shopItem = "|🥚| Exchange the following amount of Eggs: x",
     shopClose = "Close (ESC)",
+
+    leaderboard = "Show/Hide Leaderboard",
 }
 
 
