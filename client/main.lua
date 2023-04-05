@@ -99,7 +99,6 @@ RegisterNetEvent('eggs:respawnEgg', function(loc)
     local hash = GetHashKey(v.model)
     --if not HasModelLoaded(hash) then LoadModel(hash) end
     if not EasterEggs[loc] then
-        print("Spawning egg at " .. loc .. " with hash " .. hash)
         EasterEggs[loc] = CreateObject(hash, v.location, false, true, true)
         SetEntityAsMissionEntity(EasterEggs[loc], true, true)
         FreezeEntityPosition(EasterEggs[loc], true)
@@ -201,8 +200,6 @@ RegisterNetEvent("eggs:init", function()
                 },
                 distance = 3.0
             })
-        else 
-            print('fuck')
         end
     end
 end)
