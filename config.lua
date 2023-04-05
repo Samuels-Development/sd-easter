@@ -32,7 +32,7 @@ Config.CuReward = {
     },
 }
 
-    
+Config.CheckBasketInHand = true -- true = you'll have to have a basket in your hands to pickup eggs, false = you can pick up the eggs without a basket in hand
 
 Config.respawnTime = 600 -- Seconds
 
