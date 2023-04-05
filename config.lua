@@ -34,7 +34,7 @@ Config.CuReward = {
 
     
 
-Config.respawnTime = 30 -- Seconds
+Config.respawnTime = 600 -- Seconds
 
 Config.easterBasket = {
     [1] = {
