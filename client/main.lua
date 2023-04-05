@@ -204,7 +204,6 @@ RegisterNetEvent("eggs:init", function()
     end
 end)
 
-
 RegisterNetEvent("eggs:client:buyBox")
 AddEventHandler("eggs:client:buyBox", function(item)
     TriggerServerEvent("eggs:server:buyBox", item)
