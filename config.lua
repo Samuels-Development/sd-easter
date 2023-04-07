@@ -391,7 +391,7 @@ Config.easterEggs = {
     [55] = {
         location = vector3(-121.95, -1485.92, 32.82),
         heading = 285.29,
-        model = "bzzz_event_easter_egg_f"
+        model = "bzzz_event_easter_egg_a"
     },
     [56] = {
         location = vector3(-205.65, -1382.25, 31.26),
